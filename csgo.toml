@@ -1,157 +1,77 @@
-timestamp = 1661973720
-
-[signatures]
-anim_overlays = 10640
-clientstate_choked_commands = 19760
-clientstate_delta_ticks = 372
-clientstate_last_outgoing_command = 19756
-clientstate_net_channel = 156
-convar_name_hash_table = 192912
-dwClientState = 5820380
-dwClientState_GetLocalPlayer = 384
-dwClientState_IsHLTV = 19784
-dwClientState_Map = 652
-dwClientState_MapDirectory = 392
-dwClientState_MaxPlayer = 904
-dwClientState_PlayerInfo = 21184
-dwClientState_State = 264
-dwClientState_ViewAngles = 19856
-dwEntityList = 81647900
-dwForceAttack = 52485692
-dwForceAttack2 = 52485704
-dwForceBackward = 52485608
-dwForceForward = 52485740
-dwForceJump = 86538492
-dwForceLeft = 52485620
-dwForceRight = 52485632
-dwGameDir = 6469888
-dwGameRulesProxy = 87011628
-dwGetAllClasses = 14597292
-dwGlobalVars = 5819616
-dwGlowObjectManager = 87188944
-dwInput = 86175472
-dwInterfaceLinkList = 9897812
-dwLocalPlayer = 14423244
-dwMouseEnable = 14447064
-dwMouseEnablePtr = 14447016
-dwPlayerResource = 52478336
-dwRadarBase = 86058644
-dwSensitivity = 14446708
-dwSensitivityPtr = 14446664
-dwSetClanTag = 566288
-dwViewMatrix = 81588788
-dwWeaponTable = 86178228
-dwWeaponTableIndex = 12908
-dwYawPtr = 14446136
-dwZoomSensitivityRatioPtr = 14472736
-dwbSendPackets = 886178
-dwppDirect3DDevice9 = 680016
-find_hud_element = 1458920496
-force_update_spectator_glow = 3925114
-interface_engine_cvar = 256572
-is_c4_owner = 3978464
-m_bDormant = 237
-m_bIsLocalPlayer = 13864
-m_flSpawnTime = 66496
-m_pStudioHdr = 10576
-m_pitchClassPtr = 86059312
-m_yawClassPtr = 14446136
-model_ambient_min = 5832788
-set_abs_angles = 1989296
-set_abs_origin = 1988848
-
-[netvars]
-cs_gamerules_data = 0
-m_ArmorValue = 71628
-m_Collision = 800
-m_CollisionGroup = 1140
-m_Local = 12236
-m_MoveType = 604
-m_OriginalOwnerXuidHigh = 12756
-m_OriginalOwnerXuidLow = 12752
-m_SurvivalGameRuleDecisionTypes = 4904
-m_SurvivalRules = 3328
-m_aimPunchAngle = 12348
-m_aimPunchAngleVel = 12360
-m_angEyeAnglesX = 71632
-m_angEyeAnglesY = 71636
-m_bBombDefused = 10688
-m_bBombPlanted = 2469
-m_bBombTicking = 10640
-m_bFreezePeriod = 32
-m_bGunGameImmunity = 39312
-m_bHasDefuser = 71644
-m_bHasHelmet = 71616
-m_bInReload = 12981
-m_bIsDefusing = 39292
-m_bIsQueuedMatchmaking = 116
-m_bIsScoped = 39284
-m_bIsValveDS = 124
-m_bSpotted = 2365
-m_bSpottedByMask = 2432
-m_bStartedArming = 13312
-m_bUseCustomAutoExposureMax = 2521
-m_bUseCustomAutoExposureMin = 2520
-m_bUseCustomBloomScale = 2522
-m_clrRender = 112
-m_dwBoneMatrix = 9896
-m_fAccuracyPenalty = 13120
-m_fFlags = 260
-m_flC4Blow = 10656
-m_flCustomAutoExposureMax = 2528
-m_flCustomAutoExposureMin = 2524
-m_flCustomBloomScale = 2532
-m_flDefuseCountDown = 10684
-m_flDefuseLength = 10680
-m_flFallbackWear = 12768
-m_flFlashDuration = 66672
-m_flFlashMaxAlpha = 66668
-m_flLastBoneSetupTime = 10536
-m_flLowerBodyYawTarget = 39644
-m_flNextAttack = 11648
-m_flNextPrimaryAttack = 12872
-m_flSimulationTime = 616
-m_flTimerLength = 10660
-m_hActiveWeapon = 12040
-m_hBombDefuser = 10692
-m_hMyWeapons = 11784
-m_hObserverTarget = 13212
-m_hOwner = 10716
-m_hOwnerEntity = 332
-m_hViewModel = 13064
-m_iAccountID = 12248
-m_iClip1 = 12916
-m_iCompetitiveRanking = 6788
-m_iCompetitiveWins = 7048
-m_iCrosshairId = 71736
-m_iDefaultFOV = 13116
-m_iEntityQuality = 12220
-m_iFOV = 12788
-m_iFOVStart = 12792
-m_iGlowIndex = 66696
-m_iHealth = 256
-m_iItemDefinitionIndex = 12218
-m_iItemIDHigh = 12240
-m_iMostRecentModelBoneCounter = 9872
-m_iObserverMode = 13192
-m_iShotsFired = 66528
-m_iState = 12904
-m_iTeamNum = 244
-m_lifeState = 607
-m_nBombSite = 10644
-m_nFallbackPaintKit = 12760
-m_nFallbackSeed = 12764
-m_nFallbackStatTrak = 12772
-m_nForceBone = 9868
-m_nModelIndex = 600
-m_nTickBase = 13376
-m_nViewModelIndex = 10704
-m_rgflCoordinateFrame = 1092
-m_szCustomName = 12364
-m_szLastPlaceName = 13764
-m_thirdPersonViewAngles = 12776
-m_vecOrigin = 312
-m_vecVelocity = 276
-m_vecViewOffset = 264
-m_viewPunchAngle = 12336
-m_zoomLevel = 13280
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#%F0%9F%87%B3%F0%9F%87%B1%20[BL]%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20648
+wg://engage.cloudflareclient.com:4500?private_key=SB9qOINfKwevbRf4j6Li2AnOmnUSalri9MkURII1050%3D&local_address=172.16.0.2/32-2606:4700:110:8ba2:4d00:e17f:ca35:6a4e/128&mtu=1280&enable_amnezia=true&jc=5&jmin=100&jmax=200&h1=1&h2=2&h3=3&h4=4&i1=%3Cb%200xc70000000108ce1bf31eec7d93360000449e227e4596ed7f75c4d35ce31880b4133107c822c6355b51f0d7c1bba96d5c210a48aca01885fed0871cfc37d59137d73b506dc013bb4a13c060ca5b04b7ae215af71e37d6e8ff1db235f9fe0c25cb8b492471054a7c8d0d6077d430d07f6e87a8699287f6e69f54263c7334a8e144a29851429bf2e350e519445172d36953e96085110ce1fb641e5efad42c0feb4711ece959b72cc4d6f3c1e83251adb572b921534f6ac4b10927167f41fe50040a75acef62f45bded67c0b45b9d655ce374589cad6f568b8475b2e8921ff98628f86ff2eb5bcce6f3ddb7dc89e37c5b5e78ddc8d93a58896e530b5f9f1448ab3b7a1d1f24a63bf981634f6183a21af310ffa52e9ddf5521561760288669de01a5f2f1a4f922e68d0592026bbe4329b654d4f5d6ace4f6a23b8560b720a5350691c0037b10acfac9726add44e7d3e880ee6f3b0d6429ff33655c297fee786bb5ac032e48d2062cd45e305e6d8d8b82bfbf0fdbc5ec09943d1ad02b0b5868ac4b24bb10255196be883562c35a713002014016b8cc5224768b3d330016cf8ed9300fe6bf39b4b19b3667cddc6e7c7ebe4437a58862606a2a66bd4184b09ab9d2cd3d3faed4d2ab71dd821422a9540c4c5fa2a9b2e6693d411a22854a8e541ed930796521f03a54254074bc4c5bca152a1723260e7d70a24d49720acc544b41359cfc252385bda7de7d05878ac0ea0343c77715e145160e6562161dfe2024846dfda3ce99068817a2418e66e4f37dea40a21251c8a034f83145071d93baadf050ca0f95dc9ce2338fb082d64fbc8faba905cec66e65c0e1f9b003c32c943381282d4ab09bef9b6813ff3ff5118623d2617867e25f0601df583c3ac51bc6303f79e68d8f8de4b8363ec9c7728b3ec5fcd5274edfca2a42f2727aa223c557afb33f5bea4f64aeb252c0150ed734d4d8eccb257824e8e090f65029a3a042a51e5cc8767408ae07d55da8507e4d009ae72c47ddb138df3cab6cc023df2532f88fb5a4c4bd917fafde0f3134be09231c389c70bc55cb95a779615e8e0a76a2b4d943aabfde0e394c985c0cb0376930f92c5b6998ef49ff4a13652b787503f55c4e3d8eebd6e1bc6db3a6d405d8405bd7a8db7cefc64d16e0d105a468f3d33d29e5744a24c4ac43ce0eb1bf6b559aed520b91108cda2de6e2c4f14bc4f4dc58712580e07d217c8cca1aaf7ac04bab3e7b1008b966f1ed4fba3fd93a0a9d3a27127e7aa587fbcc60d548300146bdc126982a58ff5342fc41a43f83a3d2722a26645bc961894e339b953e78ab395ff2fb854247ad06d446cc2944a1aefb90573115dc198f5c1efbc22bc6d7a74e41e666a643d5f85f57fde81b87ceff95353d22ae8bab11684180dd142642894d8dc34e402f802c2fd4a73508ca99124e428d67437c871dd96e506ffc39c0fc401f666b437adca41fd563cbcfd0fa22fbbf8112979c4e677fb533d981745cceed0fe96da6cc0593c430bbb71bcbf924f70b4547b0bb4d41c94a09a9ef1147935a5c75bb2f721fbd24ea6a9f5c9331187490ffa6d4e34e6bb30c2c54a0344724f01088fb2751a486f425362741664efb287bce66c4a544c96fa8b124d3c6b9eaca170c0b530799a6e878a57f402eb0016cf2689d55c76b2a91285e2273763f3afc5bc9398273f5338a06d%3E&public_key=bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo%3D&persistent_keepalive_interval=25#WARP%202.0%20%231
+wg://engage.cloudflareclient.com:946?private_key=yQXD2Qd+LDH3b2XfPzqIGbkUWLpSqxAa8VQDm7jcC+Y%3D&local_address=172.16.0.2/32-2606:4700:110:8bf9:8f5e:1884:61e0:5dbe/128&mtu=1280&enable_amnezia=true&jc=4&jmin=40&jmax=70&h1=1&h2=2&h3=3&h4=4&i1=%3Cb%200xce000000010897a297ecc34cd6dd000044d0ec2e2e1ea2991f467ace4222129b5a098823784694b4897b9986ae0b7280135fa85e196d9ad980b150122129ce2a9379531b0fd3e871ca5fdb883c369832f730e272d7b8b74f393f9f0fa43f11e510ecb2219a52984410c204cf875585340c62238e14ad04dff382f2c200e0ee22fe743b9c6b8b043121c5710ec289f471c91ee414fca8b8be8419ae8ce7ffc53837f6ade262891895f3f4cecd31bc93ac5599e18e4f01b472362b8056c3172b513051f8322d1062997ef4a383b01706598d08d48c221d30e74c7ce000cdad36b706b1bf9b0607c32ec4b3203a4ee21ab64df336212b9758280803fcab14933b0e7ee1e04a7becce3e2633f4852585c567894a5f9efe9706a151b615856647e8b7dba69ab357b3982f554549bef9256111b2d67afde0b496f16962d4957ff654232aa9e845b61463908309cfd9de0a6abf5f425f577d7e5f6440652aa8da5f73588e82e9470f3b21b27b28c649506ae1a7f5f15b876f56abc4615f49911549b9bb39dd804fde182bd2dcec0c33bad9b138ca07d4a4a1650a2c2686acea05727e2a78962a840ae428f55627516e73c83dd8893b02358e81b524b4d99fda6df52b3a8d7a5291326e7ac9d773c5b43b8444554ef5aea104a738ed650aa979674bbed38da58ac29d87c29d387d80b526065baeb073ce65f075ccb56e47533aef357dceaa8293a523c5f6f790be90e4731123d3c6152a70576e90b4ab5bc5ead01576c68ab633ff7d36dcde2a0b2c68897e1acfc4d6483aaaeb635dd63c96b2b6a7a2bfe042f6aed82e5363aa850aace12ee3b1a93f30d8ab9537df483152a5527faca21efc9981b304f11fc95336f5b9637b174c5a0659e2b22e159a9fed4b8e93047371175b1d6d9cc8ab745f3b2281537d1c75fb9451871864efa5d184c38c185fd203de206751b92620f7c369e031d2041e152040920ac2c5ab5340bfc9d0561176abf10a147287ea90758575ac6a9f5ac9f390d0d5b23ee12af583383d994e22c0cf42383834bcd3ada1b3825a0664d8f3fb678261d57601ddf94a8a68a7c273a18c08aa99c7ad8c6c42eab67718843597ec9930457359dfdfbce024afc2dcf9348579a57d8d3490b2fa99f278f1c37d87dad9b221acd575192ffae1784f8e60ec7cee4068b6b988f0433d96d6a1b1865f4e155e9fe020279f434f3bf1bd117b717b92f6cd1cc9bea7d45978bcc3f24bda631a36910110a6ec06da35f8966c9279d130347594f13e9e07514fa370754d1424c0a1545c5070ef9fb2acd14233e8a50bfc5978b5bdf8bc1714731f798d21e2004117c61f2989dd44f0cf027b27d4019e81ed4b5c31db347c4a3a4d85048d7093cf16753d7b0d15e078f5c7a5205dc2f87e330a1f716738dce1c6180e9d02869b5546f1c4d2748f8c90d9693cba4e0079297d22fd61402dea32ff0eb69ebd65a5d0b687d87e3a8b2c42b648aa723c7c7daf37abcc4bb85caea2ee8f55bec20e913b3324ab8f5c3304f820d42ad1b9f2ffc1a3af9927136b4419e1e579ab4c2ae3c776d293d397d575df181e6cae0a4ada5d67ecea171cca3288d57c7bbdaee3befe745fb7d634f70386d873b90c4d6c6596bb65af68f9e5121e67ebf0d89d3c909ceedfb32ce9575a7758ff080724e1ab5d5f43074ecb53a479af21ed03d7b6899c36631c0166f9d47e5e1d4528a5d3d3f744029c4b1c190cbfbad06f5f83f7ad0429fa9a2719c56ffe3783460e166de2d8%3E&public_key=bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo%3D#WARP%202.0%20%232
+wg://engage.cloudflareclient.com:878?private_key=yQXD2Qd+LDH3b2XfPzqIGbkUWLpSqxAa8VQDm7jcC+Y%3D&local_address=172.16.0.2/32-2606:4700:110:8bf9:8f5e:1884:61e0:5dbe/128&mtu=1280&enable_amnezia=true&jc=4&jmin=40&jmax=70&h1=1&h2=2&h3=3&h4=4&i1=%3Cb%200xc7000000010809a1ed4edbbe7615000044d017a61a0d774f04290f119e701ef0035df2b0ed571b0b575e6a07246b856eb6ec036fef07f1e07b861251ad737abeb67e64be714c1dcd865312b1b6c35c089c997aeb5c18f808696fe97289513945d84ca846467603e94e44224877f2c1d3261e4ac18740be4bd064369c94fc08978d99b54bf615250998639010c1284248e1d73004b81fcb20b559d8a17eced7eab3964b5b88ca7a3b8579fc8c1c934189e77143b4ac434138114b1048651b56545b87acbef0952763538f3ddeb37cfc6d58b4881c3b719d7ff78f6ee1324a2914a32381c05a64c700466d280be007253bb030d179c4f1b3dc221e1974e2ee6d6e2b9e8d709159b5ef22e1783dbba845c20ca1c83b066c73835920ad70b806df0aee0351e3fc9ab1e42e8b2a30fe235ff0612eee19744949cecee0463b76514ad90c1f7ceaa557c18586ab561d49482e73c85d0143785da14a441bf82f78783b61cccd44aecb1947516e79b5ca5a6b3a8aed6040fae0eeabdc55a88dc19ade832d99fca90c7a629cacc07192d7e47e3c6a271b95b0ea3392562a06a1cab79f40ea92916ebee197b7b5f14b251824e1ed20ff2ca80b1f03a43e45157589bc61b978e97851025b3b7ccc17d291e1cb60fe48a5c26829dce11dd23c2e73265a9ebf8617c985e4fee4681e863f990061f4dea465a7d2524bd0edcf4b48d4b8f25fc359b15babd2637284a4774077dca60091f1a781cfee1bef9713dd5943a579d7470bc5970542fbb27fdf77880a8d8751b1f642c7a3f019a05ab94bf63d3525ef34e9290b5c8d477f2714e6d6e3e4d35c1983f5e16fda57fcdf071b513f8f088dbe8d5a97577d17a5383a496c3f313adfdd47c962bbaebd6aa13b46439eb742622c29ca067db0ec1853064c3cbbffe0a215a19fce47d49703ed58ebbd89721172d256d1cf30188106fb2f863186511401fad54d087aa2fb3d1b85768db386bd7102e8060ac157bac011acdcdae2799b9aee1467c3424013455bd028fcaacdc3c77d28ea199967d617ea7d0d0815f3cc407934a76d1293dccba210d1709a13e5dd67c9ba47cd113f5bdd740358eff13164159fd09bc2f7ec6cfa64d9df7e2e2f88706b0ff3a92ccf6f078456cfe0bdd89292cfe2680badc1eac9f7d36efe8eb6912c7b164508d13e6c0911c15f73c233cbe4fc70ff2ade1e1be4bbb738e0939159e2078a9438f05b756a003371f4861481c38f1cdd2d7b06deb62869e9fe79a8abaa920646fa2e8fa28f0d80c136376c7b56046bae4c05c0cdf64efb8c47bbfc5a1a4c0b045061ef0d71618e0d206a1d7f245fd5c03191b152673ba8dff8e1b8de7c50234a93cba91e3888adb228cc02beded4b1c0946797d3ef02dec2edb6ad0ac21f89f4be364c317da7c22440e9f358d512203f4b7ab20388af68b8915d0152db2c8a0687bfaea870f7529bb92a22b35bd79bc6d490591406346ecd78342ee3563c4883a8251679691c2d4e963397e24653520795511b018915374c954bddb940a9d7a16d1c8bd798fc7dbfb0599a7074e13f87e14efa8d511bb2579ec029b1bda18fe971b30fbe19e986ff2686a69bf3f1bb929de93ae70345ebca998b11e0a2b41890cba628d8f6e7c4e94790735e5299b4ff07cd3080f7d53c9cbe1911d2cd5925b3213e033c272506a87886cf761a283a779564d3241e3c28f632e166b5d756e1786ce077614c4444e3f2aed5decb3613b925ea3e558c21d4faf8ba54edd0f3a5d4%3E&public_key=bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo%3D#WARP%202.0%20%233
+wg://8.35.211.1:988?private_key=yQXD2Qd+LDH3b2XfPzqIGbkUWLpSqxAa8VQDm7jcC+Y%3D&local_address=172.16.0.2/32-2606:4700:110:8bf9:8f5e:1884:61e0:5dbe/128&mtu=1280&enable_amnezia=true&jc=4&jmin=40&jmax=70&h1=1&h2=2&h3=3&h4=4&i1=%3Cb%200x494e56495445207369703a626f624062696c6f78692e636f6d205349502f322e300d0a5669613a205349502f322e302f55445020706333332e61746c616e74612e636f6d3b6272616e63683d7a39684734624b3737366173646864730d0a4d61782d466f7277617264733a2037300d0a546f3a20426f62203c7369703a626f624062696c6f78692e636f6d3e0d0a46726f6d3a20416c696365203c7369703a616c6963654061746c616e74612e636f6d3e3b7461673d313932383330313737340d0a43616c6c2d49443a20613834623463373665363637313040706333332e61746c616e74612e636f6d0d0a435365713a2033313431353920494e564954450d0a436f6e746163743a203c7369703a616c69636540706333332e61746c616e74612e636f6d3e0d0a436f6e74656e742d547970653a206170706c69636174696f6e2f7364700d0a436f6e74656e742d4c656e6774683a20300d0a0d0a%3E&i2=%3Cb%200x5349502f322e302031303020547279696e670d0a5669613a205349502f322e302f55445020706333332e61746c616e74612e636f6d3b6272616e63683d7a39684734624b3737366173646864730d0a546f3a20426f62203c7369703a626f624062696c6f78692e636f6d3e0d0a46726f6d3a20416c696365203c7369703a616c6963654061746c616e74612e636f6d3e3b7461673d313932383330313737340d0a43616c6c2d49443a20613834623463373665363637313040706333332e61746c616e74612e636f6d0d0a435365713a2033313431353920494e564954450d0a436f6e74656e742d4c656e6774683a20300d0a0d0a%3E&public_key=bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo%3D#WARP%202.0%20%234
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%AB%F0%9F%87%AE%20Finland
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%B7%F0%9F%87%BA%20LTE
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.48:8080#%E6%9C%AA%E7%9F%A5%20SS-161%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#United+Kingdom
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.162:443#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.15:443#United+Kingdom
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#Notorgamers
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.147:8080#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#%F0%9F%87%B3%F0%9F%87%B1%20[BL]%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20648
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#Relay%2019
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.147:8080#%F0%9F%87%B3%F0%9F%87%B1%20The%20Netherlands%20%7C%20@RaViraNet
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.174:8080#%E6%9C%AA%E7%9F%A5%20SS-153%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.162:443#%E6%9C%AA%E7%9F%A5%20SS-150%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.230:8080#0080327
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.42:8080#Shadowsocks%F0%9F%94%B5
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.174:443#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.155:8080#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.2:8080#%F0%9F%87%B3%F0%9F%87%B1%20[BL]%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20688
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.203:8080#Notorgamers
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.46:8080#%F0%9F%87%B3%F0%9F%87%B1%20[BL]%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20602
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.223:8080#[107ms%7CEU%7Cj38%7Ctcp88%25%7CSS%7C@vlesstrojan]
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.48:8080#%F0%9F%87%B3%F0%9F%87%B1%20[BL]%20%D0%A1%D0%B5%D1%80%D0%B2%D0%B5%D1%80%20611
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.174:443#%E6%9C%AA%E7%9F%A5%20SS-152%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.181:8080#%E6%9C%AA%E7%9F%A5%20SS-127%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.164:8080#Notorgamers
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#United+Kingdom
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.48:8080#%F0%9F%87%AC%F0%9F%87%A7%20Relay%2019%20%7C%20GB
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.129:8080#0080757
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080#%F0%9F%87%B3%F0%9F%87%B1The%20Netherlands
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.48:8080#Notorgamers
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080#%E6%9C%AA%E7%9F%A5%20SS-134%20%7C%20free-nodes
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.11:8080#Notorgamers
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#Reino+Unido
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:8080#%F0%9F%87%AC%F0%9F%87%A7GB-%F0%9F%9A%80@VPNine1
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.180:8080#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@193.29.139.223:8080#%F0%9F%87%B3%F0%9F%87%B1%20[NL]%20%D0%9D%D0%B8%D0%B4%D0%B5%D1%80%D0%BB%D0%B0%D0%BD%D0%B4%D1%8B%20VFPARSER
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%B1%F0%9F%87%B9%20[LT]%20%D0%9B%D0%B8%D1%82%D0%B2%D0%B0%20VFPARSER
+vmess://959a8caf-4cea-43d0-a548-3628e7ddfafc@165.154.195.38:35034?packetEncoding=xudp#%F0%9F%87%B9%F0%9F%87%BC
+vmess://b65a2d69-5634-42a2-e4be-54e8a6176900@165.140.216.142:443?packetEncoding=xudp#15.%20%F0%9F%87%BA%F0%9F%87%B8%20United%20States
+vless://5322390f-20ee-49e4-9b38-51fc1b5a1758@193.233.255.53:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=gb.sellflow.org&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sid&packetEncoding=none#AetrisVPN%20White%20list%20%E2%94%83%20%E2%9C%85%20SNI:%20gb.sellflow.org%20%E2%94%83%20%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@media.morphai.cc:443?encryption=none&type=xhttp&security=tls&sni=media.morphai.cc&alpn=h2,http/1.1&fp=qq&host=media.morphai.cc&path=/hls/v2/track/8e31c750/&mode=packet-up&extra=%7B%22hKeepAlivePeriod%22:30,%22hMaxRequestTimes%22:%22600-900%22,%22hMaxReusableSecs%22:1800,%22noSSEHeader%22:true,%22path%22:%22/%22,%22scMaxBufferedPosts%22:12,%22scMaxConcurrentPosts%22:1,%22scMaxEachPostBytes%22:%22131072-262144%22,%22scMinPostsIntervalMs%22:%225-10%22,%22scStreamUpServerSecs%22:%221-2%22,%22seqKey%22:%22offset%22,%22seqPlacement%22:%22query%22,%22sessionIDKey%22:%22media_sid%22,%22sessionIDPlacement%22:%22cookie%22,%22sessionKey%22:%22media_sid%22,%22sessionPlacement%22:%22cookie%22,%22uplinkDataKey%22:%22X-Playback-Token%22,%22uplinkDataPlacement%22:%22header%22,%22uplinkHTTPMethod%22:%22GET%22,%22xPaddingObfsMode%22:true%7D#%F0%9F%87%AA%F0%9F%87%BA%20AetrisVPN
+vless://e99794a5-0cec-407f-ab8b-421e60bf6165@176.123.165.57:8447?encryption=none&type=xhttp&security=reality&sni=rutube.ru&fp=firefox&pbk=_5AXmrTGOLzQhwbBRbPsgjsWkn9636mvtdSChzdvL18&mode=auto#%F0%9F%87%B7%F0%9F%87%BA%20AetrisVPN
+vless://a6cf4b28-ba72-4e8c-90f8-6a884107ab3c@idontknow.whit3.net:8443?encryption=none&type=grpc&security=reality&sni=idontknow.whit3.net&fp=firefox&pbk=9hX9xn4aKrsXXqWi9nLyuDm2izZ_klzFffTR8192Rxs&sid=ca9273f1a19a886e&serviceName=idontknow_grpc#%F0%9F%87%A8%F0%9F%87%A6%20AetrisVPN
+vless://ef2c48a7-c113-4610-9d81-b35779660d9e@de2.oblaco.bet:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de2.oblaco.bet&fp=firefox&pbk=mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0&sid&packetEncoding=none#%F0%9F%87%A9%F0%9F%87%AA%20AetrisVPN
+vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.209.7:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=dartsearch-cn.net&fp=firefox&pbk=00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM&sid&packetEncoding=none#%F0%9F%87%B1%F0%9F%87%B9%20AetrisVPN
+vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.161:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=getsavesafe.net&fp=chrome&pbk=5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs&sid=82f5d3a1e9c0b661&packetEncoding=none#%F0%9F%87%B3%F0%9F%87%B1%20AetrisVPN
+vless://d2247622-e6d2-4195-8270-55cdb709f35c@nt02.hirbilon.net:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=nt02.hirbilon.net&fp=chrome&pbk=7ktX54khBm6yULcC-MYNj_qElBu6hwmcAsJjP5UcXHk&sid=05f6a5418c2a6865&packetEncoding=none#%F0%9F%87%A7%F0%9F%87%AA%20AetrisVPN
+vless://ef2c48a7-c113-4610-9d81-b35779660d9e@138.124.60.146:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=usa.oblaco.bet&fp=firefox&pbk=mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0&sid&packetEncoding=none#%F0%9F%87%A8%F0%9F%87%AD%20AetrisVPN
+vless://ef2c48a7-c113-4610-9d81-b35779660d9e@usa.oblaco.bet:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=usa.oblaco.bet&fp=firefox&pbk=mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0&sid&packetEncoding=none#%F0%9F%87%A8%F0%9F%87%AD%20AetrisVPN
+vless://a6cf4b28-ba72-4e8c-90f8-6a884107ab3c@77.67.89.180:8443?encryption=none&type=grpc&security=reality&sni=lastchance.whit3.net&fp=firefox&pbk=1xq4kMV5MBlwzlXjAI7oFZqtfIPMZfP2_7fTNfjOVjU&sid=4b1b942b4dfcfdf8&serviceName=lastchance_grpc#%F0%9F%87%B3%F0%9F%87%B1%20AetrisVPN
+vless://a6cf4b28-ba72-4e8c-90f8-6a884107ab3c@lastchance.whit3.net:8443?encryption=none&type=grpc&security=reality&sni=lastchance.whit3.net&fp=firefox&pbk=1xq4kMV5MBlwzlXjAI7oFZqtfIPMZfP2_7fTNfjOVjU&sid=4b1b942b4dfcfdf8&serviceName=lastchance_grpc#%F0%9F%87%A7%F0%9F%87%AA%20AetrisVPN
+vless://dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51@188.114.97.6:80?encryption=none&type=ws&host=de.vpnbase.net&path=/http&packetEncoding=none#%F0%9F%87%AB%F0%9F%87%B7%20AetrisVPN
+vless://ef2c48a7-c113-4610-9d81-b35779660d9e@de2.oblaco.bet:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=de2.oblaco.bet&fp=firefox&pbk=mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0&sid&packetEncoding=none#%F0%9F%87%A8%F0%9F%87%AD%20AetrisVPN
+vless://8c105407-82fb-4dd1-8df4-916d34a7d3fe@194.48.250.31:443?encryption=none&type=xhttp&security=reality&sni=www.google.com&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&host=www.google.com&path=/&mode=auto#%F0%9F%87%AA%F0%9F%87%BA%20AetrisVPN
+vless://710fc22f-06b2-4b6d-bb3e-f57c17b670a6@bc-vn-hn.ray-balance.space:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.ray-balance.space&fp=chrome&pbk=d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI&sid&packetEncoding=none#%F0%9F%87%BB%F0%9F%87%B3%20AetrisVPN
+vless://710fc22f-06b2-4b6d-bb3e-f57c17b670a6@2.27.27.202:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.ray-balance.space&fp=firefox&pbk=d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI&sid&packetEncoding=none#%F0%9F%87%AC%F0%9F%87%AA%20AetrisVPN
+vless://9aff0732-7ce4-4b34-ba20-e67c6df64fdd@uk1.panel11.ru:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=uk1.panel11.ru&fp=firefox&pbk=L5qLDM9pWlBV6gU9yCT4_yc7jz982FiLi2CZWLo3Ki0&sid=dcbf3f13ce2dbe37&packetEncoding=none#%F0%9F%87%B7%F0%9F%87%BA%20AetrisVPN
+vless://39c42b0a-b823-4c93-bb99-74b4183e518d@85.155.226.168:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=getsavesafe.net&fp=qq&pbk=5Z6PwoPSNBLPIsX8lZtHM7-Y-psMMR1vz5Pit0EVISs&sid=82f5d3a1e9c0b661&packetEncoding=none#%F0%9F%87%A7%F0%9F%87%B7%20AetrisVPN
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@media.morphai.cc:443?encryption=none&type=xhttp&security=tls&sni=media.morphai.cc&alpn=h2,http/1.1&fp=qq&host=media.morphai.cc&path=/hls/v2/track/8e31c750/&mode=packet-up&extra=%7B%22hKeepAlivePeriod%22:30,%22hMaxRequestTimes%22:%22600-900%22,%22hMaxReusableSecs%22:1800,%22noSSEHeader%22:true,%22path%22:%22/%22,%22scMaxBufferedPosts%22:12,%22scMaxConcurrentPosts%22:1,%22scMaxEachPostBytes%22:%22131072-262144%22,%22scMinPostsIntervalMs%22:%225-10%22,%22scStreamUpServerSecs%22:%221-2%22,%22seqKey%22:%22offset%22,%22seqPlacement%22:%22query%22,%22sessionIDKey%22:%22media_sid%22,%22sessionIDPlacement%22:%22cookie%22,%22sessionKey%22:%22media_sid%22,%22sessionPlacement%22:%22cookie%22,%22uplinkDataKey%22:%22X-Playback-Token%22,%22uplinkDataPlacement%22:%22header%22,%22uplinkHTTPMethod%22:%22GET%22,%22xPaddingObfsMode%22:true%7D#%F0%9F%87%AA%F0%9F%87%BA%20AetrisVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1A=@140.174.184.5:8388#%F0%9F%87%AA%F0%9F%87%B8%20AetrisVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY=@108.181.121.226:8388#%F0%9F%87%AA%F0%9F%87%B8%20AetrisVPN
+vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.75.68:443?encryption=none&security=tls&sni=germany-2.ariyuz.org&alpn=http/1.1&type=ws&host=germany-2.ariyuz.org&path=/&packetEncoding=none#%F0%9F%87%A9%F0%9F%87%AA%20%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F%20[%23%D0%A0%D0%9A%D0%9F]
+vless://05cf7b0e-ad1a-42bb-80e7-73ae45b1019a@france.io-com-de-dev.org:8443?encryption=none&security=tls&sni=france.io-com-de-dev.org&alpn=http/1.1&fp=chrome&type=ws&host=france.io-com-de-dev.org&path=/api/voip/updates/static/x9i2&packetEncoding=none#%F0%9F%87%AB%F0%9F%87%B7%20%D0%A4%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F%20[%23%D0%A0%D0%9A%D0%9F]
+vless://1078d418-b4e0-4668-9018-dc90c2042d61@104.17.28.89:443?encryption=none&security=tls&sni=workspace.evan00.dpdns.org&fp=chrome&type=ws&host=workspace.evan00.dpdns.org&path=/fp%3Drandomized&packetEncoding=none#%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F%20%231%20%F0%9F%87%AB%F0%9F%87%AE
